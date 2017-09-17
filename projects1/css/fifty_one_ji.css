@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	background-color:#f5f5f5;
+}
+header{
+	background-color:#fff;
+}
+.logo{
+	width:1200px;
+	height:40px;
+	padding:15px 0;
+	margin:0 auto;
+}
+.sdcr_logo{
+	float:left;
+	height:44px;
+}
+.logo_1{
+	float:left;
+	width:40px;
+	height:40px;
+	margin-right:8px;
+}
+.logo_2{
+	float:left;
+	width:110px;
+	height:30px;
+	margin-top:5px;
+}
+.logo_1 img,.logo_2 img{
+	width:100%;
+	height:100%;
+}
+.sdcr_text{
+	float:left;
+	height:40px;
+}
+.sdcr_t1,.sdcr_t2{
+	font-size:15px;
+	line-height:40px;
+	float:left;
+}
+.sdcr_t1{
+	font-size:8px;
+	color:#cbcbcb;
+	margin:0 25px;
+}
+.sdcr_t2{
+	font-weight: bold;
+    font-family: 黑体;
+}
+.banner{
+	width:100%;
+	height:532px;
+	background:url('../img/sdcr_banner.png') no-repeat;
+}
+.banner_content{
+	text-align:center;
+	color:#fff;
+	overflow:hidden;
+}
+.banner_content .banner_co_1{
+	margin-top:80px;
+}
+.banner_content h3{
+	font-size:30px;
+	margin-top:10px;
+	font-weight:normal;
+}
+.banner_content .qr_code{
+	position:relative;
+	margin:65px auto 0;
+	width:190px;
+	height:190px;
+	background:#fff;
+	padding:15px;
+}
+.qr_code .position_img{
+	position:absolute;
+	width:50px;
+	height:50px;
+	left:85px;
+	top:85px;
+	border-radius:5px;
+	background-color:#fff;
+}
+.qr_code img{
+	width:35px;
+	height:35px;
+	margin-top:7.5px;
+}
+.banner_content .banner_co_2{
+	margin-top:30px;
+	font-size:20px;
+}
+ul{
+	width:1200px;
+	height:250px;
+	margin:0 auto;
+}
+ul li{
+	width:380px;
+	height:200px;
+	margin:25px 0;
+	background-color:#fff;
+	float:left;
+	text-align:center;
+	box-shadow:10px 10px 10px #eee;
+}
+li .list_img{
+	margin:40px auto;
+}
+footer{
+	font-size:18px;
+	line-height:60px;
+	text-align:center;
+}
+.clear{
+	clear:both;
+}
+.margin_right{
+	margin-right:30px;
+}
